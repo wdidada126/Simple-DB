@@ -88,8 +88,8 @@
 			<version>1.0.7</version>
 		</dependency>
 		<dependency>
-			<artifactId>easymock-parent</artifactId>
 			<groupId>org.easymock</groupId>
+			<artifactId>easymock</artifactId>
 			<version>3.4</version>
 		</dependency>
 		<!-- MINA - 网络框架 -->
