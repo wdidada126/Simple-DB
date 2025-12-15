@@ -24,6 +24,14 @@ print /Users/ibqo/Develop/git/github/java/Simple-DB/files/file.dat 5
 Insert
 Operator
 OpIterator
+Permissions
+HeapPage
+HeapFile
+BufferPool
+
+Insert
+
+
 
 Catalog单个表Database.getCatalog()检索全局目录
 Database.getBufferPool()
