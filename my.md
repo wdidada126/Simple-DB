@@ -24,16 +24,119 @@ print /Users/ibqo/Develop/git/github/java/Simple-DB/files/file.dat 5
 Field, IntField,StringField, Type
 
 ## class dsigram
+
+### simpledb
+
+Parser
+ParsingException
+SimpleDb
+
+### simpledb.common
+Catalog
+Database
+Debug
+Utility
+
+Type
+Permissions
+
+DbException
+DeadlockException
+
+### simpledb.execution
+Aggregate
+Delete
+Filter
+HashEquiJoin
+IndexPredicate
 Insert
+IntegerAggregator
+Join
+JoinPredicate
 Operator
 OpIterator
-Permissions
+OrderBy
+PlanCache
+Predicate
+Project
+Query
+SeqScan
+StringAggregator
+
+--- interface ---
+
+Aggregator
+IndexOpIterator
+
+
+### simpledb.index
+
+BTreeChecker
+BTreeEntry
+BTreeFile
+BTreeFileEncoder
+BTreeHeaderPage
+BTreeInternalPage
+BTreeLeafPage
+BTreePage
+BTreePageId
+BTreeRootPtrPage
+BTreeScan
+BTreeUtility
+
+### simpledb.optimizer
+CostCard
+IntHistogram
+JoinOptimizer
+LogicalFilterNode                                                                                        
+LogicalJoinNode
+LogicalPlan
+LogicalPlan
+LogicalScanNode
+LogicalSelectListNode
+LogicalSubplanJoinNode
+OperatorCardinality
+QueryPlanVisualizer
+StringHistogram
+TableStats
+
+### simpledb.storage
+AbstractDbFileIterator
+BufferPool
+DbFile
+DbFileIterator
+Field
+HeapFile
+HeapFileEncoder
+HeapPage
+HeapPageId
+IntField
+LogFile
+Page
+PageId
+RecordId
+StringField
+Tuple
+TupleDesc
+TupleIterator
+
+### simpledb.transaction
+Transaction
+TransactionAbortedException
+TransactionId
+
+Operator
+OpIterator
 HeapPage
 HeapFile
 BufferPool
 
 Insert
 
+IntHistogram
+TableStats
+JoinOptimizer
+LogicalPlan
 
 
 Catalog单个表Database.getCatalog()检索全局目录
