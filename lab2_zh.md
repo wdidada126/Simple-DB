@@ -227,6 +227,7 @@ AND some_data_file1.id > 1
 
 
 对于查询操作的更广泛示例，您可能会发现浏览连接、过滤器和聚合的单元测试有帮助。
+```java
 package simpledb;
 
 import java.io.*;
@@ -279,7 +280,7 @@ public class jointest {
     }
 
 }
-
+```
 
 两个表都有三个整数字段。为了表达这一点，我们创建一个TupleDesc对象，并向其传递一个Type对象数组，指示字段类型，以及String对象数组，指示字段名称。一旦我们创建了这个TupleDesc，我们就初始化两个代表表的HeapFile对象。一旦我们创建了表，就将它们添加到Catalog中。（如果这是一个已经在运行的数据库服务器，我们将已经加载了此目录信息；我们只需要为此测试目的加载这个）。
 
