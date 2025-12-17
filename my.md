@@ -4,6 +4,7 @@
 ```shell
 convert /Users/ibqo/Develop/git/github/java/Simple-DB/files/file.txt 5
 convert D:\develops\git\github\java\Simple-DB2\files\file.txt 5
+convert D:\develops\git\github\java\Simple-DB2\files\some_data_file.txt 3
 ```
 
 
