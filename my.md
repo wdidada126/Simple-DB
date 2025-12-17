@@ -13,14 +13,12 @@ print D:\develops\git\github\java\Simple-DB2\files\file.dat 5
 print /Users/ibqo/Develop/git/github/java/Simple-DB/files/file.dat 5
 ```
 
-
 ```
 1	2	3	4	5
 1	2	3	4	5
 1	2	3	4	5
 1	2	3	4	5	
 ```
-
 
 Field, IntField,StringField, Type
 
