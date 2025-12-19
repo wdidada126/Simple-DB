@@ -4,6 +4,7 @@
 ```shell
 convert /Users/ibqo/Develop/git/github/java/Simple-DB/files/file.txt 5
 convert D:\develops\git\github\java\Simple-DB2\files\file.txt 5
+convert D:\develops\git\github\java\Simple-DB2\files\some_data_file.txt 3
 ```
 
 
@@ -22,7 +23,35 @@ print /Users/ibqo/Develop/git/github/java/Simple-DB/files/file.dat 5
 Field, IntField,StringField, Type
 
 ## class dsigram
+
+### simpledb
+
+Parser
+ParsingException
+SimpleDb
+
+### simpledb.common
+Catalog
+Database
+Debug
+Utility
+
+Type
+Permissions
+
+DbException
+DeadlockException
+
+### simpledb.execution
+Aggregate
+Delete
+Filter
+HashEquiJoin
+IndexPredicate
 Insert
+IntegerAggregator
+Join
+JoinPredicate
 Operator
 OpIterator
 Permissions
