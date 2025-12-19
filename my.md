@@ -32,6 +32,7 @@ BufferPool
 
 Insert
 
+HeapPage api
 
 
 Catalog单个表Database.getCatalog()检索全局目录
