@@ -22,7 +22,7 @@ print /Users/ibqo/Develop/git/github/java/Simple-DB/files/file.dat 5
 
 Field, IntField,StringField, Type
 ## java doc
-mvn javadoc:javadoc
+mvn javadoc:javadoc -DadditionalJOption=-Xdoclint:none
 file:///Users/ibqo/Develop/git/github/java/Simple-DB/target/site/apidocs/index.html
 
 ## class dsigram
